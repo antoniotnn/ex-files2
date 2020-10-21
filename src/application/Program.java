@@ -38,7 +38,7 @@ public class Program {
 	}
 	
 	List<String> returnMarkers(String line) {
-		String[] markers=line.split("\\s*[a-zA-Z]+\\s*");
+		String[] markers=line.split("{[a-zA-Z]}");
 		
 		
 		for (int i=0;i<field.length;i++) {
