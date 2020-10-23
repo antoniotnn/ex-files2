@@ -1,4 +1,4 @@
-package application;
+package application	;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -25,7 +25,7 @@ public class Program {
         String filePath = sc.nextLine();
 
         File sourceFile = new File(filePath);
-        String targetFile = sourceFile + "taquiEssaMerda.txt";
+        String targetFile = sourceFile.getParent() + "endoideiMasDeuCerto.txt";
 
         try (BufferedReader br = new BufferedReader(new FileReader(sourceFile))) {
 
